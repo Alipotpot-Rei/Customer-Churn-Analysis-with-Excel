@@ -16,9 +16,9 @@ The project aims to analyze customer churn patterns and identify key factors con
 
 ### Methodology
 
-    - The COUNTIF function is used to calculate the number of churned customers and the number of retained customers
+   - The COUNTIF function is used to calculate the number of churned customers and the number of retained customers
 
-    - The COUNTIFS function is used to calculate the following: 
+   - The COUNTIFS function is used to calculate the following: 
        - number of churned customers by contract type
        - number of churned customers by age group   
        - number of churned customers by gender 
@@ -28,7 +28,7 @@ The project aims to analyze customer churn patterns and identify key factors con
        - number of churned customers with international plan 
        - number of retained customers with international plan
 
-    - The AVERAGEIFS function is used to calculate the following:
+   - The AVERAGEIFS function is used to calculate the following:
        - average data usage (GB download) for churned customers  
        - average data usage (GB download) for retained customers  
        - average monthly charge for churned customers
@@ -38,35 +38,35 @@ The project aims to analyze customer churn patterns and identify key factors con
        - average customer service calls for churned customers
        - average customer service calls for retained customers
 
-    - The XLOOKUP function is used to find the total charge for a certain customer
+   - The XLOOKUP function is used to find the total charge for a certain customer
 
-    - The INDEX/MATCH function is used to find the churn reason for a certain customer
+   - The INDEX/MATCH function is used to find the churn reason for a certain customer
 
-    - The FILTER function is used to find cutomers with high churn risk factors
+   - The FILTER function is used to find cutomers with high churn risk factors
 
-    - Pivot Tables are used list the number of churned customers by churn category, churn reasons and account length
+   - Pivot Tables are used to list the number of churned customers by churn category, churn reasons and account length
 
 ### Business Context
 
   The dataset is designed to analyze why customers leave (churn) by examining:
 
-    - Behavioral patterns: Usage drops, frequent service calls
+  - Behavioral patterns: Usage drops, frequent service calls
 
-    - Financial drivers: High monthly charges, extra fees
+  - Financial drivers: High monthly charges, extra fees
 
-    - Contractual factors: Short-term vs. long-term contracts
+  - Contractual factors: Short-term vs. long-term contracts
 
-    - Demographic trends: Age/state-based retention risks   
+  - Demographic trends: Age/state-based retention risks   
     
 ### Typical Use Cases
 
-    - Churn Prediction: Identifying high-risk customers before they leave
+  - Churn Prediction: Identifying high-risk customers before they leave
 
-    - Intervention Strategies: Targeting specific pain points (e.g., price-sensitive customers)
+  - Intervention Strategies: Targeting specific pain points (e.g., price-sensitive customers)
 
-    - Service Optimization: Improving areas with high churn reasons (e.g., network quality)
+  - Service Optimization: Improving areas with high churn reasons (e.g., network quality)
 
-    - Promotion Design: Creating retention offers for at-risk segments   
+  - Promotion Design: Creating retention offers for at-risk segments   
 
 ### Insights 
 
